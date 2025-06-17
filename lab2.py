@@ -1,0 +1,7 @@
+first_name= str(input("Enter your first name: "))
+last_name= str(input ("Enter your last name: "))
+total_marbles= int(input( "Enter the number of marbles you wish to purchase: "))
+print ("Order prepared for " + (first_name +" " +  last_name))
+print (str(total_marbles) + " marbles ordered @ $1.20 " )
+total_cost= int(total_marbles) * float(1.20)
+print ("Total cost is $"+ str(total_cost))
